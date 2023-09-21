@@ -22,7 +22,7 @@
     "bigint-conversion": "^2.4.1",
     "bignumber.js": "^9.1.0",
     "bootstrap": "^5.3.1",
-    "CrowdFund": "../CrowdFund",
+    "CrowdFund": "./CrowdFund",
     "framer-motion": "4.1.17",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
@@ -40,7 +40,7 @@
     "stellar-wallets-kit": "github:Creit-Tech/Stellar-Wallets-Kit",
     "styled-components": "^5.3.10",
     "swiper-react": "^1.0.0",
-    "token": "../token",
+    "token": "./Token",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
     "webpack-dev-middleware": "^6.1.1"

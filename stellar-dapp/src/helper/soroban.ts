@@ -247,7 +247,13 @@ export const donateToCampaignByID = async (
   }
 
   const built = tx.build();
+
+  console.log("built:", built);
+
   const sim = await server.simulateTransaction(built);
+
+  console.log("sim:", sim);
+
   const preparedTransaction = sorobanAssemble(
     built,
     networkPassphrase,

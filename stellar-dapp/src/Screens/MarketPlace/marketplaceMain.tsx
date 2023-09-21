@@ -24,7 +24,7 @@ const MarketplaceMain = (props: MarketplaceMainProps) => {
         <div style={{ marginTop: "20%", marginLeft: "20%" }}>
             <Web3Page
               networkDetails={props.networkDetails}
-              setPubKey={props.setPubKey}
+              // setPubKey={props.setPubKey}
               swkKit={props.swkKit}
               pubKey={props.pubKey}
              />
